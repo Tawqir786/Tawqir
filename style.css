@@ -1,0 +1,137 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header, nav, section, footer {
+    padding: 20px;
+    background-color: #0dad4a;
+    color: #fff;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: #270fff;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+footer {
+    text-align: center;
+    background-color: #ffffff;
+    color: #fff;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f7f7f7;
+    color: #333;
+}
+
+header, nav, section, footer {
+    padding: 20px;
+    color: rgb(8, 8, 8);
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    margin-right: 20px;
+}
+
+nav a:hover {
+    color: #3b0fff;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+/* Specific Styles */
+header {
+    background-color: #0dad4a;
+}
+
+footer {
+    text-align: center;
+    background-color: #0dad35;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.product {
+    margin-bottom: 30px;
+}
+
+.product img {
+    width: 200px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+/* Styles for Product Details */
+.product h3 {
+    text-align: center;
+}
+
+.product p {
+    text-align: center;}
+
+    form {
+        max-width: 500px;
+        margin: 0 auto;
+    }
+    
+    label {
+        font-weight: bold;
+    }
+    
+    input[type="text"],
+    input[type="email"],
+    textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 15px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+    }
+    
+    textarea {
+        resize: vertical;
+    }
+    
+    input[type="submit"] {
+        background-color: #0dad3d;
+        color: #fff;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+    
+    input[type="submit"]:hover {
+        background-color: #078125;
+    }
+    footer {
+        text-align: center;
+        padding: 10px 0;
+        background-color: #00ff40;
+        color: #ffffff;
+        position: fixed;
+        width: 100%;
+        bottom: 0px;
+    }
